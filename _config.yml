@@ -2,8 +2,8 @@
 
 title: "Scott Nette"
 description: "A repo for a list of projects."
-logo: # 120x120 px default image used for Twitter summary card
-teaser: # 400x250 px default teaser image used in image archive grid
+logo: 400x250.gif# 120x120 px default image used for Twitter summary card
+teaser: 400x250.gif
 locale: en
 url:
 feed:
