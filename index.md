@@ -1,36 +1,129 @@
 ---
-layout: default
-permalink: /
-title: "Intro"
+layout: none
+title: "Home"
 ---
 
+
 <html>
+  <head>
+    <meta charset="utf-8">
+    <title>Intro • Scott Nette</title>    
+    
+    
+    	<!-- Twitter Cards -->
+	<meta name="twitter:title" content="Intro">	
+	
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:image" content="/images/400x250.gif# 120x120 px default image used for Twitter summary card">
+	
+	<!-- Open Graph -->
+	<meta property="og:locale" content="en">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Intro">
+	
+	<meta property="og:url" content="/">
+	<meta property="og:site_name" content="Scott Nette">
+    <link rel="author" href="https://plus.google.com/+MichaelRoseDesign"/>
+    <link rel="canonical" href="/">
+    <link rel="canonical" href="https://mmistakes.github.io/skinny-bones-jekyll/">
+
+    <link href="https://mmistakes.github.io/skinny-bones-jekyll/atom.xml" type="application/atom+xml" rel="alternate" title="Skinny Bones Atom Feed">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cleartype" content="on">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- HTML5 Shiv and Media Query Support for IE -->
+    <!--[if lt IE 9]>
+      <script src="/js/vendor/html5shiv.min.js"></script>
+      <script src="/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <header id="masthead">
+  <div class="inner-wrap">
+    <a href="/" class="site-title">Scott Nette</a>
+    <nav role="navigation" class="menu top-menu">
+        <ul class="menu-item">
+	<li class="home"><a href="/">Scott Nette</a></li>
+	
+    
+    <li><a href="/projects/" >Projects</a></li>
+  
+    
+    <li><a href="" >Tools</a></li>
+  
+    
+    <li><a href="" >About</a></li>
+  
+</ul>
+    </nav>
+  </div><!-- /.inner-wrap -->
+</header><!-- /.masthead -->
+    <nav role="navigation" id="js-menu" class="sliding-menu-content">
+  <h5>Scott Nette <span>Table of Contents</span></h5>
+  <ul class="menu-item">
+    <li>
+      <a href="/projects/">
+        <img src="/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">Projects</div>
+        <p class="excerpt">Everything you need to know to get started with Skinny Bones and Jekyll.</p>
+      </a>
+    </li><li>
+      <a href="https://mmistakes.github.io/skinny-bones-jekyll/articles/">
+        <img src="https://mmistakes.github.io/skinny-bones-jekyll/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">Sample Articles</div>
+        <p class="excerpt">Examples of long form posts.</p>
+      </a>
+    </li><li>
+      <a href="https://mmistakes.github.io/skinny-bones-jekyll/media/">
+        <img src="https://mmistakes.github.io/skinny-bones-jekyll/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">Media</div>
+        <p class="excerpt">Examples of media posts perfect for showcasing work, photographs, etc.</p>
+      </a>
+    </li><li>
+      <a href="https://mmistakes.github.io/skinny-bones-jekyll/about/">
+        <img src="https://mmistakes.github.io/skinny-bones-jekyll/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">About</div>
+        <p class="excerpt">All about Skinny Bones for Jekyll.</p>
+      </a>
+    </li>
+  </ul>
+</nav>
+<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
+  <span class="nav-lines"></span>
+</button>
+
 <div id="js-menu-screen" class="menu-screen"></div>
 
 
     
-    <div class="page-lead" style="background-image:url(https://mmistakes.github.io/skinny-bones-jekyll/images/wood-texture-1600x800.jpg)">
-      <div class="wrap page-lead-content">
-        <h1>Scott Nette</h1>
-        <h2>Get Thinking</h2>
-        <a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" class="btn-inverse">Start Using Skinny Bones</a> &nbsp; or &nbsp; <a href="https://github.com/mmistakes/skinny-bones-jekyll" class="btn-inverse">View on GitHub</a>
-      </div><!-- /.page-lead-content -->
+      <div class="page-lead" style="background-image:url(/images/cover.jpg)">
+  <div class="wrap page-lead-content">
+	<h1>Scott Nette</h1>
+	<h2>Get Thinking</h2>
+	<a href="{{site.url}}" class="btn-inverse">Start Using Scott Nette</a> &nbsp; or &nbsp; <a href="https://github.com/scottnette" class="btn-inverse">View on GitHub</a>
+  </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
-    
 
-    <div id="page-wrapper">
-      <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
+<div id="page-wrapper">
+  <!--[if lt IE 9]><div class="upgrade notice-warning"><strong>Your browser is quite old!</strong> Why not <a href="http://whatbrowser.org/">upgrade to a newer one</a> to better enjoy this site?</div><![endif]-->
 
 
-      <div id="main" role="main">
-        <div class="wrap">
-          <div class="page-title">
-            <h1></h1>
-            
-          </div>
-          <div class="archive-wrap">
-            <div class="page-content">
-              <div class="tiles">
+<div id="main" role="main">
+<div class="wrap">
+<div class="page-title">
+<h1></h1>
+
+</div>
+<div class="archive-wrap">
+<div class="page-content">
+  <div class="tiles">
 
 <div class="tile">
   <h2 class="post-title">Built for Jekyll 3</h2>
@@ -55,35 +148,34 @@ title: "Intro"
 </div>
 <!-- /.tiles -->
 
-            </div><!-- /.page-content -->
-          </div class="archive-wrap"><!-- /.archive-wrap -->
-        </div><!-- /.wrap -->
-      </div><!-- /#main -->
+</div><!-- /.page-content -->
 
-      <footer role="contentinfo" id="site-footer">
-	<nav role="navigation" class="menu bottom-menu">
-		<ul class="menu-item">
-		
-      
-			<li><a href="https://mmistakes.github.io/skinny-bones-jekyll/" >Home</a></li>
-		
-      
-			<li><a href="https://mmistakes.github.io/skinny-bones-jekyll/getting-started/" >Getting Started</a></li>
-		
-      
-			<li><a href="https://mmistakes.github.io/skinny-bones-jekyll/about/" >About</a></li>
-		
-      
-			<li><a href="https://mmistakes.github.io/skinny-bones-jekyll/terms/" >Terms</a></li>
-		
-		</ul>
-	</nav><!-- /.bottom-menu -->
-	<p class="copyright">&#169; 2016 <a href="https://mmistakes.github.io/skinny-bones-jekyll">Skinny Bones</a> powered by <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://mmistakes.github.io/skinny-bones-jekyll/">Skinny Bones</a>.</p>
+</div><!-- /.wrap -->
+</div><!-- /#main -->
+
+<footer role="contentinfo" id="site-footer">
+<nav role="navigation" class="menu bottom-menu">
+<ul class="menu-item">
+
+
+	<li><a href="{{ site.url }}">Home</a></li>
+
+
+	<li><a href="{{ site.url }}/projects">Projects</a></li>
+
+
+	<li><a href="{{ site.url }}/projects/about/">About</a></li>
+
+
+	<li><a href="{{ site.url }}/tools">tools</a></li>
+
+</ul>
+</nav><!-- /.bottom-menu -->
+
+	
 </footer>
     </div>
 
-    <script src="https://mmistakes.github.io/skinny-bones-jekyll/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="https://mmistakes.github.io/skinny-bones-jekyll/js/main.js"></script>
-	
-	
-	</html>
+    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
+    <script src="/js/main.js"></script>
+
