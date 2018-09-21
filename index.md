@@ -61,10 +61,10 @@ title: "Home"
     
     <li><a href="" >About</a></li>
   
-</ul>
+	</ul>
     </nav>
   </div><!-- /.inner-wrap -->
-</header><!-- /.masthead -->
+ </header><!-- /.masthead -->
     <nav role="navigation" id="js-menu" class="sliding-menu-content">
   <h5>Scott Nette <span>Table of Contents</span></h5>
   <ul class="menu-item">
@@ -72,25 +72,20 @@ title: "Home"
       <a href="/projects/">
         <img src="/images/400x250.gif" alt="teaser" class="teaser">
         <div class="title">Projects</div>
-        <p class="excerpt">Everything you need to know to get started with Skinny Bones and Jekyll.</p>
+        <p class="excerpt">List of current and past projects.</p>
       </a>
     </li><li>
-      <a href="https://mmistakes.github.io/skinny-bones-jekyll/articles/">
-        <img src="https://mmistakes.github.io/skinny-bones-jekyll/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">Sample Articles</div>
-        <p class="excerpt">Examples of long form posts.</p>
-      </a>
-    </li><li>
-      <a href="https://mmistakes.github.io/skinny-bones-jekyll/media/">
-        <img src="https://mmistakes.github.io/skinny-bones-jekyll/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">Media</div>
-        <p class="excerpt">Examples of media posts perfect for showcasing work, photographs, etc.</p>
-      </a>
-    </li><li>
-      <a href="https://mmistakes.github.io/skinny-bones-jekyll/about/">
+
+      <a href="/about/">
         <img src="https://mmistakes.github.io/skinny-bones-jekyll/images/400x250.gif" alt="teaser" class="teaser">
         <div class="title">About</div>
-        <p class="excerpt">All about Skinny Bones for Jekyll.</p>
+        <p class="excerpt"></p>
+      </a>
+    </li><li>
+      <a href="/tools/">
+        <img src="https://mmistakes.github.io/skinny-bones-jekyll/images/400x250.gif" alt="teaser" class="teaser">
+        <div class="title">Tools</div>
+        <p class="excerpt">Resources used for my projects</p>
       </a>
     </li>
   </ul>
@@ -101,13 +96,12 @@ title: "Home"
 
 <div id="js-menu-screen" class="menu-screen"></div>
 
-
     
-      <div class="page-lead" style="background-image:url(/images/cover.jpg)">
+  <div class="page-lead" style="background-image:url(/images/cover.jpg)"  >
   <div class="wrap page-lead-content">
 	<h1>Scott Nette</h1>
-	<h2>Get Thinking</h2>
-	<a href="{{site.url}}" class="btn-inverse">Start Using Scott Nette</a> &nbsp; or &nbsp; <a href="https://github.com/scottnette" class="btn-inverse">View on GitHub</a>
+	<h2></h2>
+	<a href="/projects/" class="btn-inverse">Explore Projects</a> &nbsp; or &nbsp; <a href="https://github.com/scottnette" class="btn-inverse">View on GitHub</a>
   </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
 
@@ -126,13 +120,13 @@ title: "Home"
   <div class="tiles">
 
 <div class="tile">
-  <h2 class="post-title">Built for Jekyll 3</h2>
-  <p class="post-excerpt">Takes advantage of native Sass support and data files to make customizing your site easier.</p>
+  <h2 class="post-title">PCB Design and Layout</h2>
+  <p class="post-excerpt">Utilizing  KiCAD as the design tool to design and layout multiple circuits, as well as 3D modeling </p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Content First</h2>
-  <p class="post-excerpt">Designed to put the focus on you and your writing. Headers, navigation, sidebars, and footers have been purposely deemphasized.</p>
+  <h2 class="post-title">3D Printing Experience</h2>
+  <p class="post-excerpt">Using Fusion 360 for CAD modeling for rapid prototyping design</p>
 </div><!-- /.tile -->
 
 <div class="tile">
