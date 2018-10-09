@@ -100,7 +100,7 @@ title: "Home"
   <div class="page-lead" style="background-image:url(/images/cover.jpg)"  >
   <div class="wrap page-lead-content">
 	<h1>Scott Nette</h1>
-	<h2></h2>
+	<h2>!Currently updating blog as of 10/06/18!</h2>
 	<a href="/projects/" class="btn-inverse">Explore Projects</a> &nbsp; or &nbsp; <a href="https://github.com/scottnette" class="btn-inverse">View on GitHub</a>
   </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
