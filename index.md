@@ -1,98 +1,7 @@
 ---
-layout: none
-title: "Home"
+layout: default
 ---
 
-
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Intro • Scott Nette</title>    
-    
-    
-    	<!-- Twitter Cards -->
-	<meta name="twitter:title" content="Intro">	
-	
-	
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="/images/400x250.gif# 120x120 px default image used for Twitter summary card">
-	
-	<!-- Open Graph -->
-	<meta property="og:locale" content="en">
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="Intro">
-	
-	<meta property="og:url" content="/">
-	<meta property="og:site_name" content="Scott Nette">
-    <link rel="author" href="https://plus.google.com/+MichaelRoseDesign"/>
-    <link rel="canonical" href="/">
-    <link rel="canonical" href="https://mmistakes.github.io/skinny-bones-jekyll/">
-
-    <link href="https://mmistakes.github.io/skinny-bones-jekyll/atom.xml" type="application/atom+xml" rel="alternate" title="Skinny Bones Atom Feed">
-
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cleartype" content="on">
-
-    <link rel="stylesheet" href="/css/main.css">
-    <!-- HTML5 Shiv and Media Query Support for IE -->
-    <!--[if lt IE 9]>
-      <script src="/js/vendor/html5shiv.min.js"></script>
-      <script src="/js/vendor/respond.min.js"></script>
-    <![endif]-->
-
-  </head>
-
-  <body>
-    <header id="masthead">
-  <div class="inner-wrap">
-    <a href="/" class="site-title">Scott Nette</a>
-    <nav role="navigation" class="menu top-menu">
-        <ul class="menu-item">
-	<li class="home"><a href="/">Scott Nette</a></li>
-	
-    
-    <li><a href="/projects/" >Projects</a></li>
-  
-    
-    <li><a href="" >Tools</a></li>
-  
-    
-    <li><a href="" >About</a></li>
-  
-	</ul>
-    </nav>
-  </div><!-- /.inner-wrap -->
- </header><!-- /.masthead -->
-    <nav role="navigation" id="js-menu" class="sliding-menu-content">
-  <h5>Scott Nette <span>Table of Contents</span></h5>
-  <ul class="menu-item">
-    <li>
-      <a href="/projects/">
-        <img src="/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">Projects</div>
-        <p class="excerpt">List of current and past projects.</p>
-      </a>
-    </li><li>
-
-      <a href="/about/">
-        <img src="https://mmistakes.github.io/skinny-bones-jekyll/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">About</div>
-        <p class="excerpt"></p>
-      </a>
-    </li><li>
-      <a href="/tools/">
-        <img src="https://mmistakes.github.io/skinny-bones-jekyll/images/400x250.gif" alt="teaser" class="teaser">
-        <div class="title">Tools</div>
-        <p class="excerpt">Resources used for my projects</p>
-      </a>
-    </li>
-  </ul>
-</nav>
-<button type="button" id="js-menu-trigger" class="sliding-menu-button lines-button x2" role="button" aria-label="Toggle Navigation">
-  <span class="nav-lines"></span>
-</button>
 
 <div id="js-menu-screen" class="menu-screen"></div>
 
@@ -101,7 +10,7 @@ title: "Home"
   <div class="wrap page-lead-content">
 	<h1>Scott Nette</h1>
 	<h2></h2>
-	<a href="/projects/" class="btn-inverse">Explore Projects</a> &nbsp; or &nbsp; <a href="https://github.com/scottnette" class="btn-inverse">View on GitHub</a>
+	<a href="/posts/" class="btn-inverse">Explore posts</a> &nbsp; or &nbsp; <a href="https://github.com/scottnette" class="btn-inverse">View on GitHub</a>
   </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
 
@@ -155,10 +64,10 @@ title: "Home"
 	<li><a href="{{ site.url }}">Home</a></li>
 
 
-	<li><a href="{{ site.url }}/projects">Projects</a></li>
+	<li><a href="{{ site.url }}/posts">posts</a></li>
 
 
-	<li><a href="{{ site.url }}/projects/about/">About</a></li>
+	<li><a href="{{ site.url }}/posts/about/">About</a></li>
 
 
 	<li><a href="{{ site.url }}/tools">tools</a></li>

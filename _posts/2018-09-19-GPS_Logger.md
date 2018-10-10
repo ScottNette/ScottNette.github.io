@@ -11,6 +11,8 @@ image:
 <h2 id="intro">Introduction</h2>
 Goal of the project is to make a lightweight GPS logger that has a few different functionalities.
 
+
+
 <ul>
   <li>SD Card writing/reading</li>
   <li>BLE to transfer data to a smart phone</li>
