@@ -3,13 +3,13 @@
 - title: Posts
   url: /posts/
   excerpt:
-  image: 400x250.gif
+  image: #400x250.gif
   
 - title: Tools
   #layout: /foo/tes.html
   url: 
   excerpt:
-  image: 400x250.gif
+  image: #400x250.gif
   
 - title: About
   url: 

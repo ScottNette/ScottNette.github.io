@@ -3,8 +3,8 @@ layout: media
 title: "Raspberry Pi Zero W BLE Setup"
 category: DIY
 image:
-  teaser: 
-  feature: 
+  teaser: pi_zero_w.jpg
+  feature: pi_zero_w_feat.jpg
 ---
 
 

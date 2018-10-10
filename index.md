@@ -52,29 +52,3 @@ layout: default
 </div><!-- /.wrap -->
 </div><!-- /#main -->
 
-<footer role="contentinfo" id="site-footer">
-<nav role="navigation" class="menu bottom-menu">
-<ul class="menu-item">
-
-
-	<li><a href="{{ site.url }}">Home</a></li>
-
-
-	<li><a href="{{ site.url }}/posts">posts</a></li>
-
-
-	<li><a href="{{ site.url }}/posts/about/">About</a></li>
-
-
-	<li><a href="{{ site.url }}/tools">tools</a></li>
-
-</ul>
-</nav><!-- /.bottom-menu -->
-
-	
-</footer>
-    </div>
-
-    <script src="/js/vendor/jquery-1.9.1.min.js"></script>
-    <script src="/js/main.js"></script>
-
