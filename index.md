@@ -9,8 +9,11 @@ layout: default
   <div class="page-lead" style="background-image:url(/images/cover.jpg)"  >
   <div class="wrap page-lead-content">
 	<h1>Scott Nette</h1>
-	<h2></h2>
+	<h2>!Currently updating blog as of 10/08/18!</h2>
 	<a href="/posts/" class="btn-inverse">Explore posts</a> &nbsp; or &nbsp; <a href="https://github.com/scottnette" class="btn-inverse">View on GitHub</a>
+
+	
+	<a href="/projects/" class="btn-inverse">Explore Projects</a> &nbsp; or &nbsp; <a href="https://github.com/scottnette" class="btn-inverse">View on GitHub</a>
   </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
 
@@ -39,14 +42,10 @@ layout: default
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">Customizable</h2>
-  <p class="post-excerpt">Packed with layouts and modules. Include Disqus comments, social sharing buttons, and table of contents on one or all pages.</p>
+  <h2 class="post-title">Rapid Prototyping</h2>
+  <p class="post-excerpt">Utilizing open source hardware or software to efficiently put together a project for prototyping</p>
 </div><!-- /.tile -->
 
-<div class="tile">
-  <h2 class="post-title">Extensible</h2>
-  <p class="post-excerpt">Compatible with popular libraries like <a href="http://bourbon.io">Bourbon</a>, <a href="http://neat.bourbon.io/">Neat</a>, and <a href="http://github.com/octopress/octopress">Octopress</a> to help build and deploy your site with ease.</p>
-</div><!-- /.tile -->
 
 </div>
 <!-- /.tiles -->
