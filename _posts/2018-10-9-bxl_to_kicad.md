@@ -4,7 +4,7 @@ title: "How to import .bxl into Kicad"
 category: DIY
 image:
   teaser: librarian.png
-  feature: 
+  feature: librarian.png
 ---
 
 
