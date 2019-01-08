@@ -1,10 +1,10 @@
 ---
 layout: media
-title: "GPS Logger"
+title: "GSM Weather Station"
 category: DIY
 image:
   teaser: tx23u.jpg
-  feature: tx23u.jpg
+  feature: tx23u_feat.jpg
 ---
 
 
@@ -12,8 +12,8 @@ image:
 
 
 
-![Bogo pins](/images/tx23u_board.png)
+![Bogo pins](/images/tx23u_board.jpg)
 
 
-![Bogo pins](/images/ws_schem.png)
-![Bogo pins](/images/ws_schem2.png)
+![Bogo pins](/images/ws_schem.PNG)
+![Bogo pins](/images/ws_schem2.PNG)
