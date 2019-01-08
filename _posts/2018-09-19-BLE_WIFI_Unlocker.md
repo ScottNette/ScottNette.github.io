@@ -51,7 +51,7 @@ I went through a few iterations of microcontroller selection for this project.  
 A small shield was also created for the RPIZW for all the external hardware to plug into.  It was all fit on a 1"x 1" PCB with headers that plug right into the RPIZW.
 
  
-![Schematic](/images/BTSU_shield.png)
+![Schematic](/images/BTSU_shield.PNG)
 
 
 <h2 id="software-list">Software Setup</h2>
