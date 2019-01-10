@@ -4,7 +4,7 @@ title: "GSM Weather Station"
 category: DIY
 image:
   teaser: tx23u.jpg
-  feature: tx23u_feat.jpg
+  feature: weatherStation3D.png
 ---
 
 
