@@ -1,0 +1,15 @@
+#container { width:900px; height:800px; margin:auto; }
+
+#outerdiv {
+width:446px;
+height:246px;
+overflow:hidden;
+position:relative;
+}
+#innerdiv {
+position:absolute;
+top:-412px;
+left:-318px;
+width:1280px;
+height:1200px;
+}

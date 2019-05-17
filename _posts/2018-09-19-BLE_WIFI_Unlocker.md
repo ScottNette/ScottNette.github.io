@@ -8,6 +8,12 @@ image:
 ---
 
 
+
+
+
+I recently moved into a new home and am forced to carry a key with me to unlock/lock the front door.  In my previous home, I would always go through the garage and use the built in garage door opening in my car to get into the house
+so I never had this problem.  Seeing as how the off-the-shelf bluetooth door unlockers are $200+ and do not do what I want, I figured I could make mine for under $10.   already had most of the parts needed and access to a 3D printer, which makes this project a much easier to put together.
+
 <nav class="toc">
 <ul id="markdown-toc">
   <li><a href="#intro" id="markdown-toc-intro">Introduction</a></li>
@@ -18,10 +24,6 @@ image:
 </nav>
 
 
-<h2 id="intro">Introduction</h2>
-I recently moved into a new home and am forced to carry a key with me to unlock/lock the front door.  In my previous home, I would always go through the garage and use the built in garage door opening in my car to get into the house
-so I never had this problem.  Seeing as how the off-the-shelf bluetooth door unlockers are $200+ and do not do what I want, I figured I could make mine for under $10.   already had most of the parts needed and access to a 3D printer, which makes this project a much easier to put together.
-
 <h3 id="keyfeat">Key Features</h3>
 <ul>
   <li>Bluetooth, Bluetooth Low Energy (BLE) and WIFI</li>
@@ -31,6 +33,7 @@ so I never had this problem.  Seeing as how the off-the-shelf bluetooth door unl
   <li>Logging in Google Drive</li>
   <li>Guest list with texting for unlock code</li>
 </ul>
+
 
 
 

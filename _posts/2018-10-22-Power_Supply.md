@@ -8,7 +8,7 @@ image:
 ---
 
 
-<h2 id="intro">Introduction</h2>
+
 &nbsp;&nbsp;&nbsp;&nbsp;Goal of the project is to make a benchtop power supply from an ATX PC power supply.  I started this project a few months ago and made a working protoyped (pictured).
 The intent was to have a 3.3V, 5V and a 12V rail with voltage and current sense, as well as a buck converted to drop the 12V to a user selectable voltage.  
 

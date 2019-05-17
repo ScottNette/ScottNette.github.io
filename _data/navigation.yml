@@ -5,13 +5,13 @@
   excerpt:
   image: #400x250.gif
   
-- title: Tools
+#- title: Tools
   #layout: /foo/tes.html
-  url: 
-  excerpt:
-  image: #400x250.gif
+#  url: 
+#  excerpt:
+#  image: #400x250.gif
   
-- title: About
-  url: 
-  excerpt:
-  image:
+#- title: About
+#  url: 
+#  excerpt:
+#  image:

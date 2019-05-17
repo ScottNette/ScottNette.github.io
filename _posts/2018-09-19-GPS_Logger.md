@@ -8,7 +8,7 @@ image:
 ---
 
 
-<h2 id="intro">Introduction</h2>
+
 Goal of the project is to make a lightweight GPS logger that has a few different functionalities.  I couldn't find a GPS tracker that had the features I was looking for, had the battery life or was reasonably affordable.  
 I started this project a couple years back, but I have been constantly been changing the design, form factor and features.  Currently the design uses  a few breakout boards for convenience.  The end goal is to remove those
 and reduce the overall form factor.  The next biggest upgrade will be switching to a Nordic based uC to further reduce the form factor and for built in Bluetooth.
