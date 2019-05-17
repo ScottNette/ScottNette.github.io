@@ -9,7 +9,6 @@ layout: default
   <div class="page-lead" style="background-image:url(/images/cover.jpg)"  >
   <div class="wrap page-lead-content">
 	<h1>Scott Nette</h1>
-	<h2>!Currently updating blog as of 10/08/18!</h2>
 	<a href="/posts/" class="btn-inverse">Explore posts</a> &nbsp; or &nbsp; <a href="https://github.com/scottnette" class="btn-inverse">View on GitHub</a>
   </div><!-- /.page-lead-content -->
     </div><!-- /.page-lead -->
