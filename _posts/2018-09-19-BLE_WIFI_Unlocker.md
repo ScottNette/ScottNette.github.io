@@ -3,8 +3,8 @@ layout: media
 title: "BLE Wifi Door Unlock"
 category: DIY
 image:
-  teaser: doorunlock_3D_t.png
-  feature: doorunlock_3D.png
+  teaser: doorUnlocker/doorunlock_3D_t.png
+  feature: doorUnlocker/doorunlock_3D.png
 ---
 
 
@@ -65,7 +65,7 @@ Getting started was relatively straightforward with setting up Raspberian (linux
 GMail was used to quickly setup a way to communicate to the RPIZW and a cell phone.  A cell phone can text the email account and using STMP/IMAP protocols, the RPIZW can read the message sent from the phone and respond back to it.  The RPIZW is setup so every 10 seconds it searches GMail for particular keywords that match an allowed command.  If it matches a command, it then verifies that the sender is on the allow list before the command is executed.  
 
 <h6>GPIO</h6>
-A few GPIO  ports are needed for interfacing to the servo and switches.  Raspberian has a built int library called Rpi.GPIO.  Basic setup for choosing inputs/outputs and setting up PWM to conntrol the servo.  
+A few GPIO  ports are needed for interfacing to the servo and switches.  Raspberian has a built int library called Rpi.GPIO.  Basic setup for choosing inputs/outputs and setting up PWM to conntrol the servo.  Had quite a few issues with the built in PWM controller using that built in library.  Timing was all over the place causing lots of servo jitter.  In the end, it was decided that it really didn't matter, since it was only on for about one second and the required accuracy was < 20 degrees or so.  
 
 <h6>Google Sheets</h6>
 Google provides an API for accessing Google Sheets from remote devices.  The packages used for this were gspread and oauth2client.  The logging happens every time the door is opened and closed.  The device used and time is also recorded in the log.
@@ -74,8 +74,11 @@ Google provides an API for accessing Google Sheets from remote devices.  The pac
 Raspberian also has built in support for bluetooth with a Python packages readily available.  With a supplied list of BT MAC addresses, the RPIZW will try to acquire the name of the BT device.  If the name received matches the allowed list, the device will be allowed to communicate with the Door Unlocker.
 
 
+![Installed on my door](/images/doorUnlocker/installed.jpg)
 
 
+<h2 id="Updated">Update</h2>
+Been using this for about 9 months now, with very limited issues.  I did have once SD card crap out on me, but that SD card was about 7 years old and used for many of my other projects.  Only other main issue with this design is the RPIZW power input.  It uses a USB port and sometimes that gets knocked caused the RPIZW to reboot.  Creating a script to run the python code on start up fixed this issue.
 
 
 

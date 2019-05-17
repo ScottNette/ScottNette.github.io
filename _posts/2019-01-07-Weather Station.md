@@ -3,7 +3,7 @@ layout: media
 title: "GSM Weather Station"
 category: DIY
 image:
-  teaser: tx23u.jpg
+  teaser: weatherStation/tx23u.jpg
   feature: weatherStation/feature.jpg
   
 ---
@@ -45,4 +45,20 @@ Once the data is transmitted, it is then read in by a php file that unpacks the 
 <iframe id="innerdiv" src="/images/weatherStation/ibom.html" width="1300" height="900" style="position:relative; top: 0px; left: -200px;">
 </iframe>
 
+
+![In Case](/images/weatherStation/case_design.jpg)
+
+
+
+Latest update on this project as of 5/16/19:<br><br>
+A new PCB was ordered to remove a few white wires and change out the connector for the anemometer.  The original RJ11 jack didn't quite fit through the weatherproof wire connector hole.  The weather station has been in my backyard for the past 2 weeks and seems to be working as expected.  One on going issue I have been having with it is the solar charger will stop charging the battery after some time.  I found a mis-sized resistor for the solar charger after reviewing the datasheet and that has helped.  The new version of the weather station has a signal going from to the Enable input of the solar charger IC to the microcontroller to reset the charger if needed. 
+The link below can be used to view the data.  The website is hosted on my Raspberry Pi 3 B+ and was created from scratch, as well as the SQL database to hold all the data from the weather station. 
+<br>
+<br>
+After working with the MKR1400, I had many issues using the open source library for the device, specifically the serial module.  Random hangs when talking to the GSM module was a semi common occurance.  Switching libraries to tiny-GSM solved most of the issues I had.  If I had more time, I would have like to rewrite the libary myself.  However, the orignal intent on this respin was to get the project created and out in the field for use quickly.  Therefore, the decision to buy an already developed board was made.  It was very dissapointing to find such instabilties in what should have been a ready to go device.  The GitHub for the device also showed other people with very similar issues with limited support for fixing the issues.  Next respin of this device will be using NB-IoT instead of 3G.  And I am planning on using the nRF91 for this.  I hope to finish up a few of my other projects soon so I can get experience with Nordic's new IoT platform and start using the that micro for many of my other projects.
+
+<a>http://scottn.ddns.net/weatherStation.html</a>
+
+<iframe id="innerdiv" src="http://scottn.ddns.net/weatherStation.html" width="1300" height="900" style="position:relative; top: 0px; left: -200px;">
+</iframe>
 

@@ -36,7 +36,7 @@ The LCD communicates with the microcontroller with UART.  A simple 1 character h
 
 
 
-Below shows
+Below shows a schematic of the design with the MAX11136.  A future version is currently in work that will eleminate this chip.  A SAMD21G18A will be used instead.
 ![Schematic Rev -](/images/ps_schem.PNG)
 
 
