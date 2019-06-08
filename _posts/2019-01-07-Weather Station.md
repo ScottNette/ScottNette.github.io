@@ -57,8 +57,6 @@ The link below can be used to view the data.  The website is hosted on my Raspbe
 <br>
 After working with the MKR1400, I had many issues using the open source library for the device, specifically the serial module.  Random hangs when talking to the GSM module was a semi common occurance.  Switching libraries to tiny-GSM solved most of the issues I had.  If I had more time, I would have like to rewrite the libary myself.  However, the orignal intent on this respin was to get the project created and out in the field for use quickly.  Therefore, the decision to buy an already developed board was made.  It was very dissapointing to find such instabilties in what should have been a ready to go device.  The GitHub for the device also showed other people with very similar issues with limited support for fixing the issues.  Next respin of this device will be using NB-IoT instead of 3G.  And I am planning on using the nRF91 for this.  I hope to finish up a few of my other projects soon so I can get experience with Nordic's new IoT platform and start using the that micro for many of my other projects.
 
-<a>http://scottn.ddns.net/weatherStation.html</a>
+[Link to Weather Station Website](http://scottn.ddns.net/weatherStation.html)
 
-<iframe id="innerdiv" src="http://scottn.ddns.net/weatherStation.html" width="1300" height="900" style="position:relative; top: 0px; left: -200px;">
-</iframe>
 
